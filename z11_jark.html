@@ -2,14 +2,15 @@
 <body>
 <div style="color:green;font-size:41px;">
  <script language="JavaScript">
-var D_jark1=prompt("D1=","");
-var D_jark2=prompt("D2=","");
+var D1_jark=prompt("D1=","");
+var D2_jark=prompt("D2=","");
 var ilosc_dni;
 var ilosc_sekund;
- var D_jark1=parseFloat(D_jark1);
- var D_jark2=parseFloat(D_jark2);
- ilosc_dni=D_jark1-D_jark2;
+ var D1_jark=parseFloat(D1_jark);
+ var D2_jark=parseFloat(D2_jark);
+ ilosc_dni=D1_jark-D2_jark;
  ilosc_sekund=(ilosc_dni*24)*(60)*(60);
+  document.write("D1="+D1_jark+"D2="+D2_jark+"<br>");
  
  document.write("Ilość sekund wynosi "+ilosc_sekund+"<br>");
  </script>
