@@ -10,7 +10,34 @@
 <body>
   <form>
     <textarea name="Jarkowicz" cols="75" rows="45" disabled>
-      Zadanie
+      Zadanie 12_jark-KOD
+     <!DOCTYPE html>
+<head>
+<title> proste obliczenia</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <div style="color:green;font-size: 48px;">
+    <script lang="JavaScript">
+        var liczba1=prompt("D1=",""); 
+        var liczba3=prompt("G1=","");
+        var liczba2=prompt("D2=","");
+        var liczba4=prompt("G2=","");
+        var ile_dni;
+        var ile_sekund;
+        var ile_razem;
+        var D1_jar=parseFloat(liczba1);
+        var D2_jar=parseFloat(liczba2);
+        var G1_jar=parseFloat(liczba3);
+        var G2_jar=parseFloat(liczba4);
+
+        ile_dni=(D1_jar-D2_jar)*24*3600;
+        ile_sekund=(G1_jar-G2_jar)*3600;
+        ile_razem=ile_dni+ile_sekund;
+        document.write("D1="+D1_jar+"G1="+G1_jar+"D2="+D2_jar+"G2="+G2_jar+"<br>")
+        document.write("ile sekund="+ile_razem+"s"+ "<br>")
+    </script>
+    </div>
     </textarea>
   </form>
 <input type="button" value="zamknij okno" onclick="okno_zamknij_Jarkowicz()"/>
