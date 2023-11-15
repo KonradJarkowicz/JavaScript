@@ -1,3 +1,4 @@
 body {
-  background-image: radial-gradient(circle, blue,red,yellow);
+  "background:radial-gradient(ellipse 66% 33% at right top, white, red 75%, 
+silver);
 }
