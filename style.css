@@ -1,3 +1,4 @@
 body {
-  background-image: radial-gradient(circle at 30px 30px, red 10px, blue 30px);
+  background-image:linear-gradient(to right, red, orange, yellow, lime, blue, purple, fuchsia);
+
 }
