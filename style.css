@@ -1,3 +1,3 @@
 body {
-  background:radial-gradient(ellipse 66% 33% at right top, white, red 75%,silver);
+  background-image: radial-gradient(circle at 30px 30px, red 10px, blue 30px);
 }
