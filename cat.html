@@ -2,6 +2,16 @@
   <head>
     <title>Random cats pic</title>
     <meta charset="utf-8">
+      <script language="JavaScript>
+          function random_cat
+          {
+            window.open("cat.html");
+          }
+          function okno_zamknij()
+          {
+            window.close()
+          }
+      </script>
   </head>
   <body>
     <div class="cat-container">
@@ -13,5 +23,9 @@
          allowfullscreen="" loading="lazy"
       </iframe>
     </div>
+    <form>
+      <input type="button" value="Random cat" onclick="random_cat()"/>
+      <input type="button" value="Zamknij okno" onclick="okno_zamknij()"/>
+    </form>
   </body>
 </html>
