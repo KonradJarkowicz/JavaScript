@@ -2,16 +2,16 @@
   <head>
     <title>Random cats pic</title>
     <meta charset="utf-8">
-      <script language="JavaScript">
-          function random_cat()
-          {
-            window.open("cat.html","okienko_cat","toolbar=no,directories=no,menubar=no,height=600,width=800,top=200,left=200");
-          }
-          function okno_zamknij()
-          {
-            window.close()
-          }
-      </script>
+<script language="JavaScript">
+function WinOpen_cat()
+{
+window.open("cat.html","okienko_cat","toolbar=no,directories=no,menubar=no,height=600,width=800,top=200,left=200");
+}
+function okno_zamknij()
+{
+window.close()
+}
+</script>
   </head>
   <body>
     <div class="cat-container">
@@ -23,6 +23,7 @@
          allowfullscreen="" loading="lazy"
       </iframe>
     </div>
-      <input type="button" value="Zamknij okno" onclick="okno_zamknij()"/>
+<input type="button" name="cat" value="Random cat picture" readonly onclick="WinOpen_cat(' ')">
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
   </body>
 </html>
