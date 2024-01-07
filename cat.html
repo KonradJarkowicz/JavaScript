@@ -15,6 +15,10 @@ window.close()
 </script>
   </head>
   <body>
+    
+    <input type="button" name="cat" value="Random cat picture" readonly onclick="WinOpen_cat(' ')">
+    <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+    
     <div class="cat-container">
       <iframe 
          src="https://cataas.com/cat"
@@ -24,7 +28,5 @@ window.close()
          allowfullscreen="" loading="lazy"
       </iframe>
     </div>
-      <input type="button" name="cat" value="Random cat picture" readonly onclick="WinOpen_cat(' ')">
-      <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
   </body>
 </html>
