@@ -108,7 +108,6 @@ window.close()
 <body>
   <h1 style="color:red;">Szkielet zaliczeniowy JavaScript Konrad Jarkowicz klasa 3F2</h1>
 <form>
-<input type="button" name="cat" value="Random cat picture" onclick="WinOpen_cat(' ')">
 <table>
   <tr>
     <th>Zadanie:</th>
@@ -207,8 +206,13 @@ window.close()
     <td>Zadanie 31-KOD: <br>
       <input type="button" name="zadanie31-KOD" value="zadanie31-jarkowicz-KOD" onclick="WinOpen_z31_KOD(' ')"></td>
   </tr>
+  <tr>
+    <td> Zamknij okno <br>
+        <input type="button" value="zamknij okno" onclick="okno_zamknij()"/></td>
+    <td>Losowe zdjęcia kotków <br>
+        <input type="button" name="cat" value="Random cat picture" onclick="WinOpen_cat(' ')"></td>
+  </tr>
 </table>
-<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
   <iframe 
          src="https://cataas.com/cat/gif"
          width="500px"
@@ -218,6 +222,5 @@ window.close()
          allowfullscreen="" loading="lazy"
       </iframe>
 </form>
-<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
 </body>
 </html>
