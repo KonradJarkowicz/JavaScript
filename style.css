@@ -18,3 +18,19 @@ nav {
   width: 30%;
   padding: 20px;
 }
+
+section {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: violet;
+  height: 300px; 
+}
+
+adbar {
+  float: left;
+  padding: 20px;
+  width: 20%;
+  background-color: green;
+  height: 300px; 
+}
