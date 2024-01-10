@@ -38,7 +38,11 @@ section {
   float: left;
   padding: 20px;
   width: 60%;
-  background-color: violet;
+  border: 10px solid #404041;
+  border-top-color: #feb093;
+  border-bottom-color: #feb093;
+  color: lime;
+  background: #fd6668;
   height:1000px;
 }
 
