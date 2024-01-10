@@ -4,7 +4,13 @@ body {
   background-position: center;
 }
 
+@font-face {
+  font-family: RVPLE ;
+  src: url(RVPLE___.TTF);
+}
+
 header {
+  font-family:RVPLE;
   text-align: center;
   color: red;
   text-style: bold;
