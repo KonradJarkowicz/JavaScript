@@ -17,8 +17,7 @@ nav {
   float: left;
   width: 10%;
   padding: 20px;
-  background-color: orange;
-  opacity:0.5;
+  background: black , 0.3;
   height:1000px;
 }
 
