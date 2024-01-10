@@ -36,3 +36,7 @@ adbar {
   background-color: green;
   height:1000px;
 }
+
+.weather {
+  scale:0.8;
+}
