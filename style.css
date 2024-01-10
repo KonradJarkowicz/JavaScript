@@ -15,7 +15,7 @@ header {
 
 nav {
   float: left;
-  width: 30%;
+  width: 10%;
   padding: 20px;
   background-color: orange;
 }
@@ -23,7 +23,7 @@ nav {
 section {
   float: left;
   padding: 20px;
-  width: 50%;
+  width: 60%;
   background-color: violet;
 }
 
