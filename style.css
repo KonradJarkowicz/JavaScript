@@ -7,6 +7,7 @@ body {
 @font-face {
   font-family: RVPLE ;
   src: url(RVPLE___.TTF);
+  format("truetype");
 }
 
 header {
