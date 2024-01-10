@@ -19,6 +19,7 @@ nav {
   padding: 20px;
   background-color: orange;
   opacity:0.5;
+  height:1000px;
 }
 
 section {
@@ -26,6 +27,7 @@ section {
   padding: 20px;
   width: 60%;
   background-color: violet;
+  height:1000px;
 }
 
 adbar {
@@ -33,4 +35,5 @@ adbar {
   padding: 20px;
   width: 20%;
   background-color: green;
+  height:1000px;
 }
