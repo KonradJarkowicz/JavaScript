@@ -10,7 +10,7 @@ body {
   format("truetype");
 }
 
-@font-face1 {
+@font-face {
   font-family: JauneMidiBold ;
   src: url(NaNJauneTRIAL-MidiBold.ttf);
   format("truetype");
