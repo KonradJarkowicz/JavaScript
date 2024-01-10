@@ -10,8 +10,14 @@ body {
   format("truetype");
 }
 
+@font-face1 {
+  font-family: JauneMidiBold ;
+  src: url(NaNJauneTRIAL-MidiBold.ttf);
+  format("truetype");
+}
+
 header {
-  font-family:RVPLE;
+  font-family:JauneMidiBold;
   text-align: center;
   color: red;
   text-style: bold;
