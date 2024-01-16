@@ -8,13 +8,15 @@
        var spodnie = {
                         producent: "Levi's",
                         typ: '501',
+                        kolor: 'Niebieskie',
+                        rodzaj: 'baggy',
                         cena: '399zł',
-                        spodnie_wyswietl_jarkowicz: function ()
+                        wyswietl_jarkowicz: function ()
                         {
-                             document.write(this.producent + ' ' + this.typ)
+                             document.write(this.producent + ' ' + this.typ + <br> + this.kolor + <br> + this.rodzaj + <br> + this.cena)
                         }
         }
-       spodnie.spodnie_wyswietl_jarkowicz();
+       spodnie.wyswietl_jarkowicz();
      </script>
    
  </body>
