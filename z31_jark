@@ -1,6 +1,6 @@
  <!doctype html>
  <head>
-     <title>Zad 30 Jarkowicz</title>
+     <title>Zad 31 Jarkowicz</title>
      <meta charset="utf-8">
  </head>
  <body>
@@ -8,16 +8,18 @@
        var spodnie = {
                         producent: "Levi's",
                         typ: '501',
+                        kolor: 'Niebieskie',
+                        rodzaj: 'Baggy',
                         cena: '399zł',
-                        spodnie_wyswietl_jarkowicz: function ()
+                        wyswietl_jarkowicz: function ()
                         {
-                             document.write(this.producent + ' ' + this.typ)
+                             document.write(this.producent + ' ' + this.typ + '<br/>' + this.kolor + '<br/>' + this.rodzaj + '<br/>' + this.cena)
                         }
         }
-       spodnie.spodnie_wyswietl_jarkowicz();
-       spodnie.rocznik="'84";
-       spodnie.wypisz=function(){alert('Wiek:'+this.rocznik+'lat')}
-       spodnie.wypisz();
+       spodnie.wyswietl_jarkowicz();
+       spodnie.rocznik=84;
+       spodnie.wypisz_jarkowicz=function() {alert('Wiek:'+this.rocznik+'lat')}
+       spodnie.wypisz_jarkowicz();
      </script>
    
  </body>
