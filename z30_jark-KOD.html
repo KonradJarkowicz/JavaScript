@@ -11,7 +11,7 @@
   <form>
     <textarea name="Jarkowicz" cols="75" rows="45" disabled>
       Zadanie 30_jark-KOD
-       <!doctype html>
+ <!doctype html>
  <head>
      <title>Zad 30 Jarkowicz</title>
      <meta charset="utf-8">
@@ -21,19 +21,19 @@
        var spodnie = {
                         producent: "Levi's",
                         typ: '501',
+                        kolor: 'Niebieskie',
+                        rodzaj: 'Baggy',
                         cena: '399zł',
-                        spodnie_wyswietl_jarkowicz: function ()
+                        wyswietl_jarkowicz: function ()
                         {
-                             document.write(this.producent + ' ' + this.typ)
+                             document.write(this.producent + ' ' + this.typ + '<br/>' + this.kolor + '<br/>' + this.rodzaj + '<br/>' + this.cena)
                         }
         }
-       spodnie.spodnie_wyswietl_jarkowicz();
+       spodnie.wyswietl_jarkowicz();
      </script>
    
  </body>
  </html>
- 
-
  
     </textarea>
   </form>
