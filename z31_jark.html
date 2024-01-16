@@ -16,6 +16,7 @@
             cena: '399zł',
             wyswietl_jarkowicz: function () {
                 var output = this.producent + ' ' + this.typ + '<br/>' + this.kolor + '<br/>' + this.rodzaj + '<br/>' + this.cena;
+                document.body.innerHTML += output; // Dodaj do treści strony
             }
         }
 
