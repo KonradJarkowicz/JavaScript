@@ -17,6 +17,12 @@ body {
   format("truetype");
 }
 
+@font-face {
+  font-family: Glitch ;
+  src: url(Glitch.ttf);
+  format("truetype");
+}
+
 header {
   font-family:JauneMidiBold;
   text-align: center;
