@@ -42,7 +42,7 @@ nav {
 
 section {
   float: left;
-  width: 60%;
+  width: 50%;
   border: 10px solid rgb(64, 64, 65, 0.5);
   border-top-color: #feb093;
   border-bottom-color: #feb093;
@@ -53,7 +53,7 @@ section {
 
 adbar {
   float: left;
-  width: 24%;
+  width: 20%;
   background-color: green;
   height:1500px;
 }
