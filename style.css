@@ -60,12 +60,4 @@ adbar {
 
 .weather {
   scale:0.5;
-  width:442px;
-  height:662px;
-  style:border:0;
-  position:absolute;
-  allowfullscreen:; 
-  border-radius:15px;
-  loading:lazy;
-  float:left;
 }
