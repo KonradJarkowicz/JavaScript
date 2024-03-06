@@ -60,6 +60,7 @@ adbar {
 
 .weather {
   scale:0.5;
+  position:absolute;
 }
 
 #ad{
