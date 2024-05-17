@@ -11,13 +11,19 @@ h1 { text-transform: uppercase; }
 <h1>Iteracja inicjałów</h1>
 <h2>Konrad Jarkowicz 3F</h2>
 <script>
-  var n_jar = parseFloat(prompt("Ile razy powtórzyć:", ""));
+  var n_jar = parseInt(prompt("Ile razy powtórzyć:", ""));
   var inicjaly_jar = prompt("Podaj swoje inicjały:", "");
+
   for (var i = 1; i <= n_jar; i++) {
     for (var k = 1; k <= i; k++) {
-      document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+      // Tworzenie ciągu niełamliwych spacji
+      var spacje = "";
+      for (var j = 1; j < k; j++) {
+        spacje += "&nbsp;";
+      }
+
+      document.write(spacje + i + "_" + inicjaly_jar + "_" + i + "<br>");
     }
-    document.write(i + "_" + inicjaly_jar + "_" + i + "<br>");
   }
 </script>
 </body>
