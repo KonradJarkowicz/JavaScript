@@ -1,0 +1,45 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_Jarkowicz()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+  <form>
+    <textarea name="Jarkowicz" cols="75" rows="45" disabled>
+      Zadanie 39_jark-KOD
+ <html>
+	<body>
+		<h1 style="color: green">MENU</h1>
+		<p>&nbsp;</p>
+		<h1 style="color: red">1 - czerwony</h1>
+		<h1 style="color: blue">2 - niebieski</h1>
+		
+		<div style="color:red;font-size:50px;">
+		<input type="button" name="jar" value="Oblicz" onclick="fun_jar()" />
+				
+			<script>
+				 function fun_jar() {
+				 var x_jar = prompt("Podaj kolor", "");
+				 if(x_jar == 1 || x_jar.toLowerCase() == "czerwony") {
+				 document.write('<h1 style="color: red;">wczytałeś kolor czerwony</h1><br />'); }
+				 else if(x_jar == 2 || x_jar.toLowerCase() == "niebieski") {
+				 document.write('<h6 style="color: blue;">wczytałeś kolor niebieski</h6><br />');
+				 } 
+				 }
+
+			 </script>
+		</div>
+		
+	</body>
+</html>
+    </textarea>
+  </form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Jarkowicz()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
