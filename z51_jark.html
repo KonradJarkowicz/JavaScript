@@ -15,15 +15,15 @@ h1 { text-transform: uppercase; }
   var inicjaly_jar = prompt("Podaj swoje inicjały:", "");
 
   for (var i = 1; i <= n_jar; i++) {
+    var wynik = "";
     for (var k = 1; k <= i; k++) {
-      // Tworzenie ciągu niełamliwych spacji
       var spacje = "";
       for (var j = 1; j < k; j++) {
         spacje += "&nbsp;";
       }
-
-      document.write(spacje + i + "_" + inicjaly_jar + "_" + i + "<br>");
+      wynik += spacje + i + "_" + inicjaly_jar + "_" + i + "<br>";
     }
+    document.write(wynik);
   }
 </script>
 </body>
