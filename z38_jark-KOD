@@ -1,0 +1,87 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_Jarkowicz()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+  <form>
+    <textarea name="Jarkowicz" cols="75" rows="45" disabled>
+      Zadanie 38_jark-KOD
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: silver;
+            font-size: 46px;
+            color:red; 
+        }
+    </style>
+</head>
+<body>
+    <p font-color="red" font-size="46px">-----MENU-----<br>
+6-wyświetlanie teorii o operatorach<br>
+29-czy liczba należy do przedziału (-5;3)<br>
+51-czy liczba należy do przedziału (-oo;5) lub [100;oo)
+    </p>
+    <script>
+        var imie = "Konrad";
+        var nazwisko = "Jarkowicz";
+        var liczba1 = imie.length;
+        var liczba2 = liczba1 + 7;
+        var liczba3 = nazwisko.length;
+        var liczba4 = liczba3 + 4;
+        document.write("Moje nazwisko to: Konrad Jarkowicz<br>")
+        document.write(imie + " = " + liczba1 + "<br>");
+		document.write("imie + 7 = " +liczba2 + "<br>");
+		document.write(nazwisko + " = " + liczba3 + "<br>");
+		document.write("nazwisko + 4 = " +liczba4 + "<br>");
+
+
+        var opcja_jar = parseInt(prompt("Wybierz opcję (6, 29 lub 51):"));
+        if (opcja_jar != 6 && opcja_jar != 29 && opcja_jar != 51 ){
+        document.write("<font> nie ma takiej opcji</font><br>");}
+        else if (opcja_jar == 6) 
+            document.write("<font color=blue size=7>Jesteś w opcja 6 --> teoria</font>"+"<br>");
+            document.write("<font color=green size=3>&& i x=3 y=4 (x < 9 && y > 2) wynik -> prawda"+"<br>"+"|| lub x=3 y=4 (x==8 || y==6) wynik->fałsz"+"<br>"+"! zaprzeczenie x=3 y=4 !(x==y) wynik->prawda</font><br>")
+
+          if (opcja_jar == 29) 
+            document.write("<font color=blue size=7>Jesteś w opcja 29 --> przedział</font>"+"<br>");
+            var x_jar=prompt("wczytaj liczbe x=","");
+            if(x_jar>=-5 && x_jar<3) 
+            document.write("<font color=green size=46px>liczba należy do przedziału</font>"+"<br>");
+        else
+        document.write("<font color=green size=46px>liczba nie należy do przedziału</font>"+"<br>");
+
+
+         if (opcja_jar == 51) 
+            document.write("<font color=blue size=7>Jesteś w opcja 51 --> przedział</font>"+"<br>");
+            var y_jar=prompt("wczytaj liczbe y=","");
+            if(y_jar>=5 && y_jar<=100) 
+            document.write("<font color=green size=46px>liczba należy do przedziału</font>"+"<br>");
+        else
+        document.write("<font color=green size=46px>liczba nie należy do przedziału</font>"+"<br>");
+
+	if((opcja!=6)&&(opcja!=29)&&(opcja!=51))
+	{
+ 		document.write("<font color=red size=7> nie ma takiej opcji</font>"+"<br>"); 
+	}
+ 
+    
+    </script>
+    <div id="output"></div>
+</body>
+</html>
+    </textarea>
+  </form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Jarkowicz()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
